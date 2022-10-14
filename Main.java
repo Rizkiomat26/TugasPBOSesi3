@@ -47,7 +47,7 @@ public class Main{
         System.out.println("Jumlah mahasiswa : 4");
         System.out.print("Jumlah mahasiswa yang lulus : " + mahasiswa.jmlLulus(true));
         mahasiswa.mhsLulus(true);
-        System.out.print("Jumlah mahasiswa yang lulus : " + mahasiswa.jmlLulus(false));
+        System.out.print("Jumlah mahasiswa yang tidak lulus : " + mahasiswa.jmlLulus(false));
         mahasiswa.mhsLulus(false);
         System.out.print("Jumlah mahasiswa dengan nilai A : " + mahasiswa.jmlNilai('A'));
         mahasiswa.mhsNilai('A');

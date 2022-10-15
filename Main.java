@@ -54,7 +54,7 @@ public class Main{
         System.out.print("Jumlah mahasiswa dengan nilai B : " + mahasiswa.jmlNilai('B'));
         mahasiswa.mhsNilai('B');
         System.out.print("Jumlah mahasiswa dengan nilai D : " + mahasiswa.jmlNilai('D'));
-        mahasiswa.mhsNilai('E');
+        mahasiswa.mhsNilai('D');
         mahasiswa.mhsRata();
         input_new.close();
     }
